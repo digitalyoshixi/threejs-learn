@@ -1,3 +1,4 @@
+import Character from './character';
 import bgImage from '../assets/aiforest.jpeg'
 import githubImage from '../assets/github.png'
 import devpostImage from '../assets/devpost.png'
@@ -10,6 +11,7 @@ export default function PageLayout( { title, children } ){
                 {/* Profile Sidebar */}
                 <div className="flex flex-col w-1/5 mx-[1%]">
                     <div className="flex-none rounded-lg my-[6%] h-[20%] w-[50%] mx-auto">
+                        <Character></Character>
                     </div> 
                     <div className="opacity-80 flex-none text-center text-white font-sourGummy bg-black border-2 border-white rounded-lg w-full h-[65%] mb-[5%]">
                         <h1 className="text-3xl">Directory</h1>
