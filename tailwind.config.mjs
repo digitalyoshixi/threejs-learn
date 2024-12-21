@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily : {
+        acme: ['var(--font-acme)'],
+        sourgummy: ['var(--font-sourgummy)']
+      }
     },
   },
   plugins: [],

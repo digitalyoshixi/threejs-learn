@@ -13,7 +13,7 @@ export default function PageLayout( { title, children } ){
                     <div className="flex-none rounded-lg my-[6%] h-[20%] w-[50%] mx-auto">
                         <Character></Character>
                     </div> 
-                    <div className="opacity-80 flex-none text-center text-white font-sourGummy bg-black border-2 border-white rounded-lg w-full h-[65%] mb-[5%]">
+                    <div className="opacity-80 flex-none text-center text-white font-sourgummy bg-black border-2 border-white rounded-lg w-full h-[65%] mb-[5%]">
                         <h1 className="text-3xl">Directory</h1>
                         <ul className="text-2xl ">
                             <li><button className="hover:text-green-400">~</button></li>
@@ -25,7 +25,7 @@ export default function PageLayout( { title, children } ){
                             <li><button className="hover:text-green-400">/3D-Models</button></li>
                         </ul>
                     </div> 
-                    <div className="flex-grow font-sourGummy w-full mb-[6%]">
+                    <div className="flex-grow font-sourgummy w-full mb-[6%]">
                         <div className="w-full flex flex-row justify-center">
                             <button><img src={githubImage} className="bg-black rounded-lg border-2 border-white mx-2 drop-shadow-white" alt="GitHub" /></button> 
                             <button><img src={devpostImage} className="bg-black rounded-lg border-2 border-white mx-2 drop-shadow-white" alt="Devpost" /></button> 
@@ -37,7 +37,7 @@ export default function PageLayout( { title, children } ){
                     <div className="opacity-90 rounded-lg font-acme font-light text-4xl text-neutral-900 text-center flex-none h-[6%] w-[50%] mx-auto bg-white my-[2%]">
                         |Yoshixis Web|
                     </div>
-                    <div className='border-2 border-black rounded-lg font-sourGummy flex-grow p-5 bg-[#E4EFD8] mb-[2%]'>
+                    <div className='border-2 border-black rounded-lg font-sourgummy flex-grow p-5 bg-[#E4EFD8] mb-[2%]'>
                         <h1 className="text-center text-3xl">{title}</h1>
                         {children}
                     </div>
